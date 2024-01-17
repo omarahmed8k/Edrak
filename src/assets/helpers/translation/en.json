@@ -1,0 +1,159 @@
+{
+  "lang": "en",
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "requestAQuote": "Request a Quote",
+    "technologySolutions": "Technology Solutions",
+    "partners": "Partners",
+    "services": "Services",
+    "solutions": "Solutions",
+    "itSupportSystem": "IT Support System",
+    "integration": "Integration",
+    "professionalServices": "Professional Services",
+    "networkingSecurity": "Networking & Security",
+    "systems": "Systems",
+    "cloudComputing": "Cloud Computing",
+    "dataCenter": "Data Center",
+    "infrastructure": "Core Infrastructure",
+    "contact": "Contact",
+    "itServiceManagement": "IT Service Management",
+    "cloudInfrastructure": "Cloud Infrastructure",
+    "iTSecurity": "IT Security",
+    "businessApplication": "Business Application",
+    "backupRecovery": "Backup / Recovery",
+    "volumeLicensing": "Volume Licensing",
+    "communicationCollaboration": "Communication & Collaboration"
+  },
+  "footer": {
+    "title1": "Bana Network",
+    "desc1": "a leading provider of IT services, consulting, and business solutions",
+    "title2": "Services",
+    "title3": "Solutions",
+    "title4": "Contacts",
+    "servicesLink1": "IT Support System",
+    "servicesLink2": "Professional Services",
+    "servicesLink3": "Integration",
+    "servicesLink4": "Networking & Security",
+    "solutionLink1": "Core Infrastructure",
+    "solutionLink2": "Systems",
+    "solutionLink3": "Cloud Computing",
+    "solutionLink4": "Data Center",
+    "phone": "+966 11 488 0000",
+    "email": "info@bnansa.com",
+    "location": "Riyadh, Saudi Arabia"
+  },
+  "home": {
+    "background": {
+      "title1": "BNAN",
+      "title2": "Network of the future",
+      "desc": "IT services We deliver accurate results to global business, ensuring a level of certainty no other firm can match."
+    },
+    "about": {
+      "title": "BNAN Story",
+      "desc": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia. We deliver accurate results to global business, ensuring a level of certainty no other firm can match.",
+      "about1Title": "Our Values",
+      "about1Desc": "Quality and excellence, Integrity and honesty, Teamwork and collaboration, Customer focus, Innovation and creativity, Respect and trust.",
+      "about2Title": "Our Mission",
+      "about2Desc": "Helping organizations to grow better not just bigger, focusing on efficiency and not just effectiveness.",
+      "about3Title": "Our Vision",
+      "about3Desc": "To be the most customer centric company for IT solutions in the world."
+    },
+    "services": {
+      "title": "Network of the future",
+      "desc": "BNAN is a leading provider of IT services, consulting, and business solutions, We Provide the next services...",
+      "card1Title": "IT Support Service",
+      "card2Title": "Professional Services",
+      "card3Title": "Integration",
+      "card4Title": "Networking & Security",
+      "card1Desc": "Networking hardware which comprises routers, switches, LAN cards, wireless routers, cables.",
+      "card2Desc": "Cloud computing is the on-demand availability of computing resources as services over the internet.",
+      "card3Desc": "like a giant brain that powers the digital world, storing and processing data for businesses and organizations.",
+      "card4Desc": "the art of protecting data and systems from unauthorized access and cyberattacks that can cause damage or theft."
+    },
+    "featured": {
+      "title": "Featured Services",
+      "desc": "BNAN is a leading provider of IT services, consulting, and business solutions, We Provide the next services...",
+      "card1Title": "IT Support Service",
+      "card2Title": "IT Network Security Service",
+      "card3Title": "IT Integration Service",
+      "card1Desc": "It is intended for critical business applications to be operational. Whenever something goes wrong, it needs to be fixed right away! Here is where we come in.",
+      "card2Desc": "combines multiple layers of defenses at the edge and in the network. Each network security layer implements policies and controls. Authorized users gain access to network resources.",
+      "card3Desc": "We have something for everyone and any budget, whether you're beginning from scratch or updating your services and require help establishing IT strategy or putting IT solutions into place.",
+      "cardBtn": "See More"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "desc": "We are proud to have worked with some of the world's most innovative companies. Here's what they have to say about us.",
+      "card1Title": "Mr.Omar Almalki",
+      "card2Title": "Eng.Ahmed Ali",
+      "card3Title": "Eng.Mohammed Abdulaziz",
+      "card1Desc": "Great Team and Great Service, I recommend BNAN to everyone.",
+      "card2Desc": "I am very happy with the service provided by BNAN",
+      "card3Desc": "BNAN is a great company, I am very happy with the service provided by BNAN"
+    }
+  },
+  "about": {
+    "aboutTitle": "About Us",
+    "aboutText": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia",
+    "title": "Who We Are",
+    "desc": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia. We deliver accurate results to global business, ensuring a level of certainty no other firm can match.",
+    "about1Title": "Our Vision",
+    "about1Desc": "To be the most customer centric company for IT solutions in the world.",
+    "about2Title": "Our Mission",
+    "about2Desc": "Helping organizations to grow better not just bigger, focusing on efficiency and not just effectiveness.",
+    "about3Title": "Our Values",
+    "about3Desc": "Quality and excellence, Integrity and honesty, Teamwork and collaboration, Customer focus, Innovation and creativity, Respect and trust."
+  },
+  "servicesSolutions": {
+    "servicesSolutionsTitle": "Services & Solutions",
+    "servicesSolutionsText": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia",
+    "title": "Who We Are",
+    "desc": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia. We deliver accurate results to global business, ensuring a level of certainty no other firm can match.",
+    "card1Text": "It is intended for critical business applications to be operational.",
+    "card2Text": "It is intended for critical business applications to be operational.",
+    "card3Text": "It is intended for critical business applications to be operational.",
+    "card4Text": "It is intended for critical business applications to be operational.",
+    "card5Text": "It is intended for critical business applications to be operational.",
+    "card6Text": "It is intended for critical business applications to be operational.",
+    "card7Text": "It is intended for critical business applications to be operational.",
+    "card8Text": "It is intended for critical business applications to be operational."
+  },
+  "partners": {
+    "partnersTitle": "Partners",
+    "partnersText": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia",
+    "title": "Who We Are",
+    "desc": "We are a leading provider of IT services, consulting, and business solutions organization in Riyadh, Saudi Arabia. We deliver accurate results to global business, ensuring a level of certainty no other firm can match.",
+    "card1Text": "It is intended for critical business applications to be operational.",
+    "card2Text": "It is intended for critical business applications to be operational.",
+    "card3Text": "It is intended for critical business applications to be operational.",
+    "card4Text": "It is intended for critical business applications to be operational.",
+    "card5Text": "It is intended for critical business applications to be operational.",
+    "card6Text": "It is intended for critical business applications to be operational.",
+    "card7Text": "It is intended for critical business applications to be operational.",
+    "card8Text": "It is intended for critical business applications to be operational."
+  },
+  "solutions": {
+    "solutionsTitle": "solutions",
+    "solutionsText": "We are a leading provider of IT services",
+    "title": "Who We Are",
+    "desc": "We are a leading provider of IT services. We deliver accurate results to global business, ensuring a level of certainty no other firm can match."
+  },
+  "services": {
+    "servicesTitle": "services",
+    "servicesText": "We are a leading provider of IT services",
+    "title": "Who We Are",
+    "desc": "We are a leading provider of IT services. We deliver accurate results to global business, ensuring a level of certainty no other firm can match."
+  },
+  "contact": {
+    "contactTitle": "Contact Us",
+    "contactText": "Keep in touch with us, we are always here to help you.",
+    "title": "Contact Us",
+    "desc": "Keep in touch with us, we are always here to help you.",
+    "name": "name",
+    "phone": "phone",
+    "email": "email",
+    "message": "message",
+    "send": "Send"
+  }
+}

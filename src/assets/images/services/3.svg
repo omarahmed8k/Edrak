@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.21" height="95.97" viewBox="0 0 84.21 95.97">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.422" y1="0.5" x2="0.549" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.4" stop-color="#a2acbd"/>
+      <stop offset="0.58" stop-color="#bbc2cd"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.477" r="0.707" gradientTransform="matrix(0.409, -0.707, 0.409, 0.707, 13.817, -1.858)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bfff"/>
+      <stop offset="0.01" stop-color="#00bdfc"/>
+      <stop offset="0.17" stop-color="#008cbb"/>
+      <stop offset="0.34" stop-color="#006182"/>
+      <stop offset="0.49" stop-color="#003e53"/>
+      <stop offset="0.64" stop-color="#00232f"/>
+      <stop offset="0.78" stop-color="#001015"/>
+      <stop offset="0.9" stop-color="#000405"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="0.498" y1="0.987" x2="0.498" y2="0.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bfff"/>
+      <stop offset="0.26" stop-color="#0088b5"/>
+      <stop offset="0.63" stop-color="#003f55"/>
+      <stop offset="0.88" stop-color="#001218"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="_10" data-name="10" transform="translate(-19.36 -206.83)">
+    <path id="Path_563" data-name="Path 563" d="M91.06,290.12,67.42,276.48l.17-.3,23.64,13.64Z" fill="#e5ecf8"/>
+    <path id="Path_564" data-name="Path 564" d="M41.61,289.92l-.17-.3,8.83-5.1-3.37-1.95,12.85-7.41.17.3-12.33,7.11,3.37,1.95Z" fill="#e5ecf8"/>
+    <path id="Path_565" data-name="Path 565" d="M70.24,272.01l-.17-.3,10.9-6.29-9.65-5.57,18.15-10.48.17.3L72.01,259.85l9.65,5.57Z" fill="#e5ecf8"/>
+    <path id="Path_566" data-name="Path 566" d="M56.09,269.26l-13.88-8.01-9.07,5.24-.09-.05-13.69-7.91,15.21-8.78.17.3-14.69,8.48,13.09,7.56,9.07-5.24.08.05,13.97,8.07Z" fill="#e5ecf8"/>
+    <path id="Path_567" data-name="Path 567" d="M33.7,246.48l-14.19,8.19,5.98,3.46,6.25-3.61,2.51,1.44h.34Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_568" data-name="Path 568" d="M35.5,257.64l-2.76,1.6,2.81,1.62h.39Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_569" data-name="Path 569" d="M44.36,253.61l-1.12.65,1.69,1.33,1.25.3Z" fill="#003893" opacity="0.5"/>
+    <g id="Axonometric_Cube" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left" data-name="Cube face - left" d="M34.59,255.96l-2.4-1.38v-.36l2.4,1.39Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right" data-name="Cube face - right" d="M39.38,253.2l-4.79,2.76v-.35l4.79-2.76Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top" data-name="Cube face - top" d="M34.59,255.61l-2.4-1.39,4.79-2.76,2.4,1.39Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-2" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-2" data-name="Cube face - left" d="M35.94,260.86l-2.85-1.64v-.35l2.85,1.64Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-2" data-name="Cube face - right" d="M43.83,256.3l-7.89,4.56v-.35l7.89-4.56Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-2" data-name="Cube face - top" d="M35.94,260.51l-2.85-1.64,7.9-4.56,2.84,1.64Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-3" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-3" data-name="Cube face - left" d="M46.18,255.89l-2.85-1.65v-.07l2.17.98Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-3" data-name="Cube face - right" d="M47.68,255.02l-1.5.87-.68-.74,1.5-.87Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-3" data-name="Cube face - top" d="M45.5,255.15l-2.17-.98,1.5-.87,2.17.98Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-4" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-4" data-name="Cube face - left" d="M34.49,253.99l-.48-.27v-6.66l.48.28Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-4" data-name="Cube face - right" d="M36.62,252.76l-2.13,1.23v-6.65l2.13-1.23Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-4" data-name="Cube face - top" d="M34.49,247.34l-.48-.28,2.13-1.23.48.28Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-5" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-5" data-name="Cube face - left" d="M28.81,256.58l-.92-.53V245.52l.92.53Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-5" data-name="Cube face - right" d="M43.59,248.05l-14.78,8.53V246.05l14.78-8.53Z" fill="#0656d7"/>
+      <path id="Cube_face_-_top-5" data-name="Cube face - top" d="M28.81,246.05l-.92-.53,14.78-8.53.92.53Z" fill="#e5ecf8"/>
+    </g>
+    <path id="Path_570" data-name="Path 570" d="M89.59,246.48l-14.18,8.19,5.97,3.46,6.26-3.61,2.5,1.44h.34Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_571" data-name="Path 571" d="M91.39,257.64l-2.76,1.6,2.82,1.62h.38Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_572" data-name="Path 572" d="M100.26,253.61l-1.13.65,1.7,1.33,1.24.3Z" fill="#003893" opacity="0.5"/>
+    <g id="Axonometric_Cube-6" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-6" data-name="Cube face - left" d="M90.48,255.96l-2.4-1.38v-.36l2.4,1.39Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-6" data-name="Cube face - right" d="M95.27,253.2l-4.79,2.76v-.35l4.79-2.76Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-6" data-name="Cube face - top" d="M90.48,255.61l-2.4-1.39,4.79-2.76,2.4,1.39Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-7" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-7" data-name="Cube face - left" d="M91.83,260.86l-2.85-1.64v-.35l2.85,1.64Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-7" data-name="Cube face - right" d="M99.72,256.3l-7.89,4.56v-.35l7.89-4.56Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-7" data-name="Cube face - top" d="M91.83,260.51l-2.85-1.64,7.9-4.56,2.84,1.64Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-8" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-8" data-name="Cube face - left" d="M102.07,255.89l-2.85-1.65v-.07l2.18.98Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-8" data-name="Cube face - right" d="M103.57,255.02l-1.5.87-.67-.74,1.5-.87Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-8" data-name="Cube face - top" d="M101.4,255.15l-2.18-.98,1.5-.87,2.18.98Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-9" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-9" data-name="Cube face - left" d="M90.38,253.99l-.48-.27v-6.66l.48.28Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-9" data-name="Cube face - right" d="M92.51,252.76l-2.13,1.23v-6.65l2.13-1.23Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-9" data-name="Cube face - top" d="M90.38,247.34l-.48-.28,2.13-1.23.48.28Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-10" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-10" data-name="Cube face - left" d="M84.71,256.58l-.93-.53V245.52l.93.53Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-10" data-name="Cube face - right" d="M99.49,248.05l-14.78,8.53V246.05l14.78-8.53Z" fill="#0656d7"/>
+      <path id="Cube_face_-_top-10" data-name="Cube face - top" d="M84.71,246.05l-.93-.53,14.78-8.53.93.53Z" fill="#e5ecf8"/>
+    </g>
+    <path id="Path_573" data-name="Path 573" d="M33.7,288.42l-14.19,8.19,5.98,3.46,6.25-3.61,2.51,1.44h.34Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_574" data-name="Path 574" d="M35.5,299.58l-2.76,1.6,2.81,1.62h.39Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_575" data-name="Path 575" d="M44.36,295.55l-1.12.65,1.69,1.33,1.25.3Z" fill="#003893" opacity="0.5"/>
+    <g id="Axonometric_Cube-11" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-11" data-name="Cube face - left" d="M34.59,297.9l-2.4-1.38v-.36l2.4,1.39Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-11" data-name="Cube face - right" d="M39.38,295.14l-4.79,2.76v-.35l4.79-2.76Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-11" data-name="Cube face - top" d="M34.59,297.55l-2.4-1.39,4.79-2.76,2.4,1.39Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-12" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-12" data-name="Cube face - left" d="M35.94,302.8l-2.85-1.64v-.35l2.85,1.64Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-12" data-name="Cube face - right" d="M43.83,298.24l-7.89,4.56v-.35l7.89-4.56Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-12" data-name="Cube face - top" d="M35.94,302.45l-2.85-1.64,7.9-4.56,2.84,1.64Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-13" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-13" data-name="Cube face - left" d="M46.18,297.83l-2.85-1.65v-.07l2.17.98Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-13" data-name="Cube face - right" d="M47.68,296.96l-1.5.87-.68-.74,1.5-.87Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-13" data-name="Cube face - top" d="M45.5,297.09l-2.17-.98,1.5-.87,2.17.98Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-14" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-14" data-name="Cube face - left" d="M34.49,295.93l-.48-.28V289l.48.28Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-14" data-name="Cube face - right" d="M36.62,294.7l-2.13,1.23v-6.65l2.13-1.23Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-14" data-name="Cube face - top" d="M34.49,289.28l-.48-.28,2.13-1.23.48.28Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-15" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-15" data-name="Cube face - left" d="M28.81,298.52l-.92-.53V287.46l.92.53Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-15" data-name="Cube face - right" d="M43.59,289.99l-14.78,8.53V287.99l14.78-8.53Z" fill="#0656d7"/>
+      <path id="Cube_face_-_top-15" data-name="Cube face - top" d="M28.81,287.99l-.92-.53,14.78-8.53.92.53Z" fill="#e5ecf8"/>
+    </g>
+    <path id="Path_576" data-name="Path 576" d="M89.59,288.42l-14.18,8.19,5.97,3.46,6.26-3.61,2.5,1.44h.34Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_577" data-name="Path 577" d="M91.39,299.58l-2.76,1.6,2.82,1.62h.38Z" fill="#003893" opacity="0.5"/>
+    <path id="Path_578" data-name="Path 578" d="M100.26,295.55l-1.13.65,1.7,1.33,1.24.3Z" fill="#003893" opacity="0.5"/>
+    <g id="Axonometric_Cube-16" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-16" data-name="Cube face - left" d="M90.48,297.9l-2.4-1.38v-.36l2.4,1.39Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-16" data-name="Cube face - right" d="M95.27,295.14l-4.79,2.76v-.35l4.79-2.76Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-16" data-name="Cube face - top" d="M90.48,297.55l-2.4-1.39,4.79-2.76,2.4,1.39Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-17" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-17" data-name="Cube face - left" d="M91.83,302.8l-2.85-1.64v-.35l2.85,1.64Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-17" data-name="Cube face - right" d="M99.72,298.24l-7.89,4.56v-.35l7.89-4.56Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-17" data-name="Cube face - top" d="M91.83,302.45l-2.85-1.64,7.9-4.56,2.84,1.64Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-18" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-18" data-name="Cube face - left" d="M102.07,297.83l-2.85-1.65v-.07l2.18.98Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-18" data-name="Cube face - right" d="M103.57,296.96l-1.5.87-.67-.74,1.5-.87Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-18" data-name="Cube face - top" d="M101.4,297.09l-2.18-.98,1.5-.87,2.18.98Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-19" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-19" data-name="Cube face - left" d="M90.38,295.93l-.48-.28V289l.48.28Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-19" data-name="Cube face - right" d="M92.51,294.7l-2.13,1.23v-6.65l2.13-1.23Z" fill="#bbc2cd"/>
+      <path id="Cube_face_-_top-19" data-name="Cube face - top" d="M90.38,289.28,89.9,289l2.13-1.23.48.28Z" fill="#e5ecf8"/>
+    </g>
+    <g id="Axonometric_Cube-20" data-name="Axonometric Cube">
+      <path id="Cube_face_-_left-20" data-name="Cube face - left" d="M84.71,298.52l-.93-.53V287.46l.93.53Z" fill="#94a0b4"/>
+      <path id="Cube_face_-_right-20" data-name="Cube face - right" d="M99.49,289.99l-14.78,8.53V287.99l14.78-8.53Z" fill="#0656d7"/>
+      <path id="Cube_face_-_top-20" data-name="Cube face - top" d="M84.71,287.99l-.93-.53,14.78-8.53.93.53Z" fill="#e5ecf8"/>
+    </g>
+    <path id="Path_579" data-name="Path 579" d="M54.82,284.74l-9.53,5.5a.61.61,0,0,0,0,1.06l9.14,5.28a4.27,4.27,0,0,0,2.13.57h7.93L59,284.07H57.3A4.94,4.94,0,0,0,54.82,284.74Z" transform="translate(-1.63 -17.17)" fill="#003893" opacity="0.5"/>
+    <g id="Group_114" data-name="Group 114">
+      <path id="Path_580" data-name="Path 580" d="M54.35,281.23a.84.84,0,0,0,.5.71l8.42,4.89a2.69,2.69,0,0,0,2.47,0l9-5.19a.88.88,0,0,0,.51-.72v10a.87.87,0,0,1-.51.72l-9,5.2a2.69,2.69,0,0,1-2.47,0L54.82,292a.87.87,0,0,1-.5-.71Z" transform="translate(-1.63 -17.17)" fill="url(#linear-gradient)"/>
+      <path id="Path_581" data-name="Path 581" d="M54.86,280.51l9-5.19a2.69,2.69,0,0,1,2.47,0l8.42,4.89c.68.39.67,1,0,1.43l-9,5.19a2.69,2.69,0,0,1-2.47,0l-8.42-4.89C54.17,281.55,54.18,280.91,54.86,280.51Z" transform="translate(-1.63 -17.17)" fill="#e5ecf8"/>
+    </g>
+    <path id="Path_582" data-name="Path 582" d="M75.25,280.92v10a.87.87,0,0,1-.51.72v-10a.88.88,0,0,0,.51-.72Z" transform="translate(-1.63 -17.17)" fill="#cad2dd"/>
+    <path id="Path_583" data-name="Path 583" d="M54.35,281.23a.84.84,0,0,0,.5.71v10a.87.87,0,0,1-.5-.71Z" transform="translate(-1.63 -17.17)" fill="#94a0b4"/>
+    <path id="Path_584" data-name="Path 584" d="M65.74,286.83v10a2.69,2.69,0,0,1-2.47,0v-10a2.69,2.69,0,0,0,2.47,0Z" transform="translate(-1.63 -17.17)" fill="#adb6c4"/>
+    <path id="Path_585" data-name="Path 585" d="M72.39,267.16,65,271.43v-1.09l7.39-4.28Z" fill="#0656d7"/>
+    <path id="Path_586" data-name="Path 586" d="M72.39,269.17,65,273.44v-1.09l7.39-4.27Z" fill="#0656d7"/>
+    <path id="Path_587" data-name="Path 587" d="M72.39,273.66,65,277.94v-3.57l7.39-4.28Z" fill="#0656d7"/>
+    <path id="Path_588" data-name="Path 588" d="M55.31,283.37V291l7.4,4.27v-7.6Z" transform="translate(-1.63 -17.17)" fill="#003893"/>
+    <path id="Path_589" data-name="Path 589" d="M69.44,263.68l-6.29,3.63-6.29-3.63,6.29-3.63Z" fill="#0656d7"/>
+    <g id="Group_115" data-name="Group 115">
+      <path id="Path_590" data-name="Path 590" d="M69.74,278c2.73,1.58,2.73,4.13,0,5.71a10.91,10.91,0,0,1-9.89,0c-2.73-1.58-2.73-4.13,0-5.71a10.91,10.91,0,0,1,9.89,0Z" transform="translate(-1.63 -17.17)" opacity="0.15" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_116" data-name="Group 116">
+      <path id="Path_591" data-name="Path 591" d="M63.87,224v57a.49.49,0,0,0,.3.41,1.61,1.61,0,0,0,1.45,0,.51.51,0,0,0,.3-.42V224Z" transform="translate(-1.63 -17.17)" opacity="0.2" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

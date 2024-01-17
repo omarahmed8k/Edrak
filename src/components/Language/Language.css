@@ -1,0 +1,26 @@
+.language {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  background: linear-gradient(90deg,
+      var(--main-color) 0%,
+      var(--second-color) 100%);
+  width: 35px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0px 50% 50% 0px;
+  color: #fff;
+  font-family: var(--font-bold);
+  font-weight: 700;
+  line-height: 0;
+  z-index: 99999;
+}
+
+.language:hover {
+  background: linear-gradient(90deg,
+      var(--second-color) 0%,
+      var(--main-color) 100%);
+}
