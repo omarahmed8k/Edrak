@@ -3,7 +3,7 @@
   "header": {
     "home": "Home",
     "about": "About",
-    "requestAQuote": "Request a Quote",
+    "requestAQuote": "Contact Us",
     "technologySolutions": "Technology Solutions",
     "partners": "Partners",
     "services": "Services",
@@ -45,9 +45,10 @@
   },
   "home": {
     "background": {
-      "title1": "BNAN",
-      "title2": "Network of the future",
-      "desc": "IT services We deliver accurate results to global business, ensuring a level of certainty no other firm can match."
+      "title1": "Edrak Global",
+      "title2": "Smart Solutions for Your Financial and Legal Needs",
+      "desc": "Comprehensive solutions for your legal and financial needs through a team of highly experienced and qualified experts.",
+      "btn": "Start Now"
     },
     "about": {
       "title": "BNAN Story",

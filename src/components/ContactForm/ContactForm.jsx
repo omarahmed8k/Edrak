@@ -1,12 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Fade } from "react-reveal";
 import "./ContactForm.css";
 
 export default function ContactForm() {
   const { t } = useTranslation();
   return (
-    <Fade bottom>
       <div className="contact-form">
         <div className="container content">
           <h2 className="title">{t("contact.title")}</h2>
@@ -36,6 +34,5 @@ export default function ContactForm() {
           </form>
         </div>
       </div>
-    </Fade>
   );
 }

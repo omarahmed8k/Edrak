@@ -2,13 +2,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/svgs/logo.svg";
-import { Fade } from "react-reveal";
 import "./Footer.css";
 
 export default function Footer() {
   const { t } = useTranslation();
   return (
-    <Fade bottom>
       <div className="footer">
         <div className="container">
           <div className="footer-grid">
@@ -56,6 +54,5 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </Fade>
   );
 }

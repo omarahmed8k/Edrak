@@ -1,19 +1,38 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { ReactComponent as Logo } from "../../assets/svgs/logo.svg";
+import { ReactComponent as Logo } from "../../assets/svgs/dark-logo.svg";
 import { ReactComponent as Menu } from "../../assets/svgs/menu.svg";
 import { useTranslation } from "react-i18next";
+import { switchLang } from "../../assets/helpers/lang.js";
 import cloudImg from "../../assets/images/cloud.png";
 import partnerImg from "../../assets/images/partners.png";
 import "./Header.css";
 
 export default function Header() {
   const [menuToggle, setMenuToggle] = useState(false);
-  const { t } = useTranslation();
-
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    switchLang(lng);
+  };
   return (
     <>
-      <div className="header">
+      <div className="header small-header" data-aos="fade-down">
+        <div className="container">
+          <ul>
+            <li>
+              <a rel="noreferrer" href="mailto:omarahmed8k@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i> omar@gmail.com</a>
+              <a rel="noreferrer" href="tel:+20123456789" target="_blank"><i class="fa-solid fa-phone"></i> +20123456789</a>
+            </li>
+            <li>
+              <a rel="noreferrer" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a rel="noreferrer" target="_blank" href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div >
+      <div className="header" data-aos="fade-down">
         <div className="container">
           <ul>
             <li>
@@ -21,7 +40,7 @@ export default function Header() {
                 <Logo />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <ul className={`nav-links ${menuToggle && "show"}`}>
                 <li onClick={() => { setMenuToggle(!menuToggle) }}>
                   <Link to={`/`}>{t("header.home")}</Link>
@@ -126,14 +145,19 @@ export default function Header() {
                   <NavLink to={`/contact`}>{t("header.contact")}</NavLink>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <button className="menu-btn" onClick={() => { setMenuToggle(!menuToggle) }}>
                 <Menu />
               </button>
-              <Link to={`/contact`} className="main-btn">
+              {/* <Link to={`/contact`} className="main-btn">
                 {t("header.requestAQuote")}
-              </Link>
+              </Link> */}
+              {t("lang") === "ar" ? (
+                <button className="lang-btn" onClick={() => changeLanguage("en")}> EN <i class="fa-solid fa-globe"></i> </button>
+              ) : (
+                <button className="lang-btn" onClick={() => changeLanguage("ar")}> <i class="fa-solid fa-globe"></i> AR </button>
+              )}
             </li>
           </ul>
         </div>
