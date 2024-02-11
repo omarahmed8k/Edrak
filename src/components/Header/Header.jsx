@@ -148,7 +148,9 @@ export default function Header() {
             </li> */}
             <li>
               <button className="menu-btn" onClick={() => { setMenuToggle(!menuToggle) }}>
-                <Menu />
+                <span></span>
+                <span></span>
+                <span></span>
               </button>
               {/* <Link to={`/contact`} className="main-btn">
                 {t("header.requestAQuote")}
