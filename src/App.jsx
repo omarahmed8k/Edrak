@@ -14,7 +14,7 @@ import Home from './pages/Home/Home.jsx';
 
 function App() {
   const [lang, setLang] = useState(i18n.language);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     checkFixLang(lang);
