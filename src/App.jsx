@@ -13,11 +13,12 @@ import 'aos/dist/aos.css';
 import Home from './pages/Home/Home.jsx';
 
 function App() {
-  const lang = i18n.language;
+  const [lang, setLang] = useState(i18n.language);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     checkFixLang(lang);
+    setLang(i18n.language);
   }, [lang]);
 
   useEffect(() => {
@@ -42,7 +43,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </div>
 }
 

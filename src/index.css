@@ -233,6 +233,8 @@ input {
 .typed {
   font-size: 42px;
   text-align: center;
+  background: #00000050;
+  padding: 5px 10px;
 }
 
 .typed span {

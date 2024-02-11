@@ -34,20 +34,6 @@ export default function Home() {
         });
     };
 
-    function typeWriter() {
-        return (
-            <h1>
-                <ReactTyped
-                    className="typed"
-                    strings={[t("home.background.title1"), t("home.background.title2"),]}
-                    backDelay={5000}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop
-                />
-            </h1>
-        );
-    }
     return (
         <div className="home">
             <div className="video-section">
@@ -58,8 +44,9 @@ export default function Home() {
                     <div className="container">
                         <h1>
                             <ReactTyped
+                                key={lang}
                                 className="typed"
-                                strings={[t("home.background.title1"), t("home.background.title2"),]}
+                                strings={[t("home.background.title1"), t("home.background.title2")]}
                                 backDelay={5000}
                                 typeSpeed={50}
                                 backSpeed={50}
@@ -76,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="services-section" data-aos="fade-down" id="services">
+            {/* <div className="services-section" data-aos="fade-down" id="services">
                 <FixedLogo className="fixed-logo" />
                 <div className="container">
                     <h2 className="title">{t("home.services.title")}</h2>
@@ -200,7 +187,7 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 
 i18n.use(LanguageDetector).use(initReactI18next).init({
     resources: { en: { translations: require("./translation/en.json"), }, ar: { translations: require("./translation/ar.json"), }, },
-    fallbackLng: "en",
+    fallbackLng: "ar",
     debug: false,
     ns: ["translations"],
     defaultNS: "translations",

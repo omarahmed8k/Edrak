@@ -21,13 +21,13 @@ export default function Header() {
         <div className="container">
           <ul>
             <li>
-              <a rel="noreferrer" href="mailto:omarahmed8k@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i> omar@gmail.com</a>
-              <a rel="noreferrer" href="tel:+20123456789" target="_blank"><i class="fa-solid fa-phone"></i> +20123456789</a>
+              <a rel="noreferrer" href="mailto:omarahmed8k@gmail.com" target="_blank" ><i className="fa-solid fa-envelope"></i> omar@gmail.com</a>
+              <a rel="noreferrer" href="tel:+20123456789" target="_blank"><i className="fa-solid fa-phone"></i> +20123456789</a>
             </li>
             <li>
-              <a rel="noreferrer" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a rel="noreferrer" target="_blank" href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+              <a rel="noreferrer" target="_blank" href="https://www.facebook.com"><i className="fa-brands fa-facebook-f"></i></a>
+              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com"><i className="fa-brands fa-linkedin-in"></i></a>
+              <a rel="noreferrer" target="_blank" href="https://www.x.com"><i className="fa-brands fa-x-twitter"></i></a>
             </li>
           </ul>
         </div>
@@ -154,9 +154,9 @@ export default function Header() {
                 {t("header.requestAQuote")}
               </Link> */}
               {t("lang") === "ar" ? (
-                <button className="lang-btn" onClick={() => changeLanguage("en")}> EN <i class="fa-solid fa-globe"></i> </button>
+                <button className="lang-btn" onClick={() => changeLanguage("en")}> EN <i className="fa-solid fa-globe"></i> </button>
               ) : (
-                <button className="lang-btn" onClick={() => changeLanguage("ar")}> <i class="fa-solid fa-globe"></i> AR </button>
+                <button className="lang-btn" onClick={() => changeLanguage("ar")}> <i className="fa-solid fa-globe"></i> AR </button>
               )}
             </li>
           </ul>

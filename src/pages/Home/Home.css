@@ -25,7 +25,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000080;
+  background: #000000b6;
   z-index: 1;
 }
 
@@ -91,10 +91,11 @@
   padding: 10px 25px;
   font-size: 16px;
   text-transform: capitalize;
-  color: #fff;
-  background: #000;
+  color: #000;
+  font-family: var(--font-bold);
+  background: #fff;
   box-shadow: 0 0 3px 0 #ffffff33;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -115,14 +116,18 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: var(--font-bold);
   transition: all 0.3s ease-in-out;
   transform: translateY(100%);
+}
+
+[dir="rtl"] .video-section .content .start-btn button::before {
+  content: "ابدأ الآن";
 }
 
 .video-section .content .start-btn button:hover::before {
@@ -180,11 +185,9 @@
 }
 
 .services-section .services-links .services-card:hover::before {
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   opacity: 0.2;
   transform: translateY(0);
 }
@@ -207,11 +210,9 @@
 .services-section .services-links .services-card .card-head h3 {
   width: calc(100% - 125px);
   font-size: 24px;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -244,7 +245,7 @@
   gap: 20px;
 }
 
-.about-section .about-flex > * {
+.about-section .about-flex>* {
   width: calc(100% / 2 - 10px);
 }
 
@@ -263,11 +264,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   transition: all 0.3s ease-in-out;
   opacity: 0.2;
 }
@@ -293,11 +292,9 @@
 }
 
 .about-section .about-flex .about-img:hover::before {
-  background: linear-gradient(
-    -118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(-118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
 }
 
 .about-section .about-flex .about-img img {
@@ -320,11 +317,9 @@
 .about-section .about-flex .about-content h2 {
   font-size: 48px;
   text-transform: capitalize;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -344,11 +339,9 @@
 .about-section .about-flex .about-content h4 {
   font-size: 24px;
   text-transform: capitalize;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -509,12 +502,7 @@
   margin-bottom: 15px;
 }
 
-[dir="rtl"]
-  .featured-section
-  .featured-grid
-  .featured-card
-  .featured-content
-  p {
+[dir="rtl"] .featured-section .featured-grid .featured-card .featured-content p {
   letter-spacing: 0;
 }
 
@@ -568,11 +556,9 @@
   text-align: left;
   font-size: 68px;
   margin-bottom: 25px;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
+  background: linear-gradient(118deg,
+      var(--main-color) 25%,
+      var(--second-color) 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -703,7 +689,7 @@
     gap: 50px;
   }
 
-  .about-section .about-flex > * {
+  .about-section .about-flex>* {
     width: 100%;
   }
 
