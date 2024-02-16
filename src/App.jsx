@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   const [lang, setLang] = useState(i18n.language);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     checkFixLang(lang);
@@ -42,14 +42,16 @@ function App() {
 
   return loading ? <video autoPlay muted className='animated-logo'><source src={logoAnimation} type="video/mp4" /></video> :
     <div className="App">
-      <AnimatedCursor
-        innerSize={18}
-        outerSize={18}
-        color='125, 125, 125'
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={5}
-      />
+      <div className="mouse-cursor">
+        <AnimatedCursor
+          innerSize={18}
+          outerSize={18}
+          color='125, 125, 125'
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={5}
+        />
+      </div>
       <Header />
       <Home />
       <Footer />

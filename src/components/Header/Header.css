@@ -262,9 +262,14 @@
     display: none;
   }
 
+  .header.small-header ul li {
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .header .menu-btn {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
   }
 
   .header ul li .main-btn,
