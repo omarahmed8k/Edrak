@@ -14,12 +14,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
-  const [lang, setLang] = useState(i18n.language);
-  const [loading, setLoading] = useState(false);
+  const [lang] = useState(localStorage.getItem('i18nextLng') || 'ar');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     checkFixLang(lang);
-    setLang(i18n.language);
   }, [lang]);
 
   useEffect(() => {
