@@ -1,46 +1,103 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination, Navigation } from "swiper";
-import { ReactComponent as FixedLogo } from "../../assets/images/svgs/fixed-logo.svg";
-import { ReactComponent as ServiceImg1 } from "../../assets/images/services/1.svg";
-import { ReactComponent as ServiceImg2 } from "../../assets/images/services/2.svg";
-import { ReactComponent as ServiceImg3 } from "../../assets/images/services/3.svg";
-import { ReactComponent as ServiceImg4 } from "../../assets/images/services/4.svg";
+import { Collapse } from 'antd';
+import { ReactComponent as Service1 } from "../../assets/images/service1.svg";
+import { ReactComponent as Service2 } from "../../assets/images/service2.svg";
+import { ReactComponent as Service3 } from "../../assets/images/service3.svg";
+import { ReactComponent as Service4 } from "../../assets/images/service1.svg";
+import { ReactComponent as Service5 } from "../../assets/images/service2.svg";
+import { ReactComponent as Service6 } from "../../assets/images/service3.svg";
+import { ReactComponent as Service7 } from "../../assets/images/service1.svg";
+import { ReactComponent as Service8 } from "../../assets/images/service2.svg";
+import { ReactComponent as Service9 } from "../../assets/images/service3.svg";
+import { ReactComponent as Vission } from "../../assets/svgs/vission.svg";
+import { ReactComponent as Mission } from "../../assets/svgs/mission.svg";
+import { ReactComponent as Goal } from "../../assets/svgs/goal.svg";
 import ReactTyped from "react-typed";
 import homeVideo from "../../assets/videos/video-1.mp4";
-import aboutImg from "../../assets/images/global/about-bg.jpg";
-import featured1 from "../../assets/images/featured/featured1.jpg";
-import featured2 from "../../assets/images/featured/featured2.jpg";
-import featured3 from "../../assets/images/featured/featured3.jpg";
-import profile from "../../assets/images/global/profile.png";
-import exploreVideo from "../../assets/images/videos/explore.ogv";
+import ContactForm from "../../components/ContactForm/ContactForm";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/autoplay";
-import "swiper/css/free-mode";
 import "./Home.css";
 
 export default function Home() {
     const { t, i18n } = useTranslation();
     let lang = i18n.language;
 
-    const collapseHandler = (e) => {
-        e.target.parentElement.classList.toggle("active");
-        e.target.parentElement.parentElement.querySelectorAll(".about-collapse").forEach((item) => {
-            if (item !== e.target.parentElement) { item.classList.remove("active"); }
-        });
-    };
+    const collapeItems = [
+        {
+            key: '1',
+            label: <div className='title-bar'><Vission /><span>{t('home.about.vission')}</span></div>,
+            children: <p>{t('home.about.vission-text')}</p>,
+        },
+        {
+            key: '2',
+            label: <div className='title-bar'><Mission /><span>{t('home.about.mission')}</span></div>,
+            children: <p>{t('home.about.mission-text')}</p>,
+        },
+        {
+            key: '3',
+            label: <div className='title-bar'><Goal /><span>{t('home.about.goal')}</span></div>,
+            children: <p>{t('home.about.goal-text')}</p>,
+        },
+    ];
+
+    const swiperItems = [
+        {
+            title: t('home.services.service-title-1'),
+            desc: t('home.services.service-text-1'),
+            img: Service1
+        },
+        {
+            title: t('home.services.service-title-2'),
+            desc: t('home.services.service-text-2'),
+            img: Service2
+        },
+        {
+            title: t('home.services.service-title-3'),
+            desc: t('home.services.service-text-3'),
+            img: Service3
+        },
+        {
+            title: t('home.services.service-title-4'),
+            desc: t('home.services.service-text-4'),
+            img: Service4
+        },
+        {
+            title: t('home.services.service-title-5'),
+            desc: t('home.services.service-text-5'),
+            img: Service5
+        },
+        {
+            title: t('home.services.service-title-6'),
+            desc: t('home.services.service-text-6'),
+            img: Service6
+        },
+        {
+            title: t('home.services.service-title-7'),
+            desc: t('home.services.service-text-7'),
+            img: Service7
+        },
+        {
+            title: t('home.services.service-title-8'),
+            desc: t('home.services.service-text-8'),
+            img: Service8
+        },
+        {
+            title: t('home.services.service-title-9'),
+            desc: t('home.services.service-text-9'),
+            img: Service9
+        },
+    ];
 
     return (
         <div className="home">
-            <div className="video-section">
+            <div className="hero-section">
                 <video loop autoPlay muted className="video">
                     <source src={homeVideo} type="video/mp4" />
                 </video>
-                <div className="content" data-aos="fade-up">
+                <div className="hero-content" data-aos="fade-up">
                     <div className="container">
                         <h1>
                             <ReactTyped
@@ -63,110 +120,73 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* <div className="services-section" data-aos="fade-down">
-                <FixedLogo className="fixed-logo" />
-                <div className="container">
-                    <h2 className="title">{t("home.services.title")}</h2>
-                    <p className="desc">{t("home.services.desc")}</p>
-                    <div className="services-links">
-                        <a href={"/services/it-support-system"} className="services-card">
-                            <div className="card-head">
-                                <ServiceImg1 />
-                                <h3>{t("home.services.card1Title")}</h3>
-                            </div>
-                            <p>{t("home.services.card1Desc")}</p>
+            <div className="container" data-aos="fade-up">
+                <div className="services-section">
+                    <div className="services-info">
+                        <h2 className="title">{t("home.services.title")}</h2>
+                        <p className="desc">{t("home.services.desc")}</p>
+                        <a href="#contact" className="main-btn" >
+                            {t("home.services.btn")}
                         </a>
+                    </div>
+                    <div className='services-swiper'>
+                        <Swiper
+                            freeMode={false}
+                            slidesPerView="auto"
+                            spaceBetween={30}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 10,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20,
+                                },
+                                1024: {
+                                    slidesPerView: 2.5,
+                                    spaceBetween: 30,
+                                },
+                            }}
+                        >
+                            {swiperItems.map((item, index) => (
+                                <SwiperSlide key={index}>
+                                    <div className="services-card">
+                                        <div className="services-img">
+                                            <item.img />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4>{t(item.title)}</h4>
+                                            <p>{t(item.desc)}</p>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
                 </div>
             </div>
 
-            <div className="bg-shape" data-aos="fade-down">
-                <div className="about-section">
-                    <div className="container">
-                        <div className="about-flex">
-                            <div className="about-img">
-                                <img src={aboutImg} alt="" />
-                            </div>
-                            <div className="about-content">
-                                <h2 className="title">{t("home.about.title")}</h2>
-                                <p className="desc">{t("home.about.desc")}</p>
-                                <div
-                                    className="about-collapse active"
-                                    onClick={(e) => {
-                                        collapseHandler(e);
-                                    }}
-                                >
-                                    <h4>{t("home.about.about1Title")}</h4>
-                                    <h6>{t("home.about.about1Desc")}</h6>
-                                </div>
-                                <div
-                                    className="about-collapse"
-                                    onClick={(e) => {
-                                        collapseHandler(e);
-                                    }}
-                                >
-                                    <h4>{t("home.about.about2Title")}</h4>
-                                    <h6>{t("home.about.about2Desc")}</h6>
-                                </div>
-                                <div
-                                    className="about-collapse"
-                                    onClick={(e) => {
-                                        collapseHandler(e);
-                                    }}
-                                >
-                                    <h4>{t("home.about.about3Title")}</h4>
-                                    <h6>{t("home.about.about3Desc")}</h6>
-                                </div>
-                            </div>
+            <div className="about-bg" data-aos="fade-up">
+                <div className="container">
+                    <div className="about-section">
+                        <div className='about-collapse'>
+                            <Collapse
+                                accordion
+                                items={collapeItems}
+                                defaultActiveKey={['1']}
+                                expandIconPosition='end'
+                            />
+                        </div>
+                        <div className="about-info">
+                            <h2 className="title white-text">{t("home.about.title")}</h2>
+                            <p className="desc white-text">{t("home.about.desc")}</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div className="featured-section">
-                    <div className="container">
-                        <h2 className="title">{t("home.featured.title")}</h2>
-                        <p className="desc">{t("home.featured.desc")}</p>
-                        <ul className="featured-grid">
-                            <li className="featured-card">
-                                <div className="featured-img">
-                                    <img src={featured1} alt="featured-img" />
-                                </div>
-                                <div className="featured-content">
-                                    <h4>{t("home.featured.card1Title")}</h4>
-                                    <p>{t("home.featured.card1Desc")}</p>
-                                    <Link to={"/services/it-support-system"} className="featured-btn">
-                                        {t("home.featured.cardBtn")}
-                                    </Link>
-                                </div>
-                            </li>
-                            <li className="featured-card">
-                                <div className="featured-img">
-                                    <img src={featured2} alt="featured-img" />
-                                </div>
-                                <div className="featured-content">
-                                    <h4>{t("home.featured.card2Title")}</h4>
-                                    <p>{t("home.featured.card2Desc")}</p>
-                                    <Link to={"/services/networking-security"} className="featured-btn">
-                                        {t("home.featured.cardBtn")}
-                                    </Link>
-                                </div>
-                            </li>
-                            <li className="featured-card">
-                                <div className="featured-img">
-                                    <img src={featured3} alt="featured-img" />
-                                </div>
-                                <div className="featured-content">
-                                    <h4>{t("home.featured.card3Title")}</h4>
-                                    <p>{t("home.featured.card3Desc")}</p>
-                                    <Link to={"/services/integration"} className="featured-btn">
-                                        {t("home.featured.cardBtn")}
-                                    </Link>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div> */}
+            <ContactForm />
         </div>
     );
 }

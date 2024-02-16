@@ -258,6 +258,10 @@
     background: #ffffff;
   }
 
+  .header.small-header li:last-child {
+    display: none;
+  }
+
   .header .menu-btn {
     display: flex;
     flex-direction: column;

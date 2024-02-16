@@ -21,8 +21,8 @@ export default function Header() {
         <div className="container">
           <ul>
             <li>
-              <a rel="noreferrer" href="mailto:omarahmed8k@gmail.com" target="_blank" ><i className="fa-solid fa-envelope"></i> omar@gmail.com</a>
-              <a rel="noreferrer" href="tel:+20123456789" target="_blank"><i className="fa-solid fa-phone"></i> +20123456789</a>
+              <a rel="noreferrer" href="mailto:info@edsacad.com" target="_blank" ><i className="fa-solid fa-envelope"></i> info@edsacad.com </a>
+              <a rel="noreferrer" href="tel:+966138313000" target="_blank"><i className="fa-solid fa-phone"></i> +966 138 313 000 </a>
             </li>
             <li>
               <a rel="noreferrer" target="_blank" href="https://www.facebook.com"><i className="fa-brands fa-facebook-f"></i></a>

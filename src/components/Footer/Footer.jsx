@@ -7,9 +7,9 @@ import "./Footer.css";
 export default function Footer() {
   const { t } = useTranslation();
   return (
-      <div className="footer">
-        <div className="container">
-          <div className="footer-grid">
+    <div className="footer">
+      <div className="container">
+        {/* <div className="footer-grid">
             <div className="footer-item">
               <Logo />
               <h3>{t("footer.title1")}</h3>
@@ -51,8 +51,12 @@ export default function Footer() {
               <p>{t("footer.email")}</p>
               <p>{t("footer.location")}</p>
             </div>
-          </div>
+          </div> */}
+
+        <div className="footer-bottom">
+          <p>{t("footer.copyRight")}</p>
         </div>
       </div>
+    </div>
   );
 }

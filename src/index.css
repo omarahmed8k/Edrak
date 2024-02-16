@@ -30,8 +30,8 @@
 
 :root {
   --bg-color: #ffffff;
-  --main-color: #ffffff;
-  --second-color: #cccccc;
+  --main-color: #000000;
+  --second-color: #212121;
   --third-color: #e5e5e5;
   --main-text: #333333;
   --second-text: #4f4f4f;
@@ -59,7 +59,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color);
+  background: var(--bg-color);
 }
 
 * {
@@ -81,7 +81,7 @@ html {
 body {
   min-height: 100vh;
   width: 100vw;
-  background: var(--main-color);
+  background: var(--bg-color);
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
@@ -169,139 +169,82 @@ input {
   margin: 0 auto;
 }
 
-.main-btn {
-  background: #212121;
-  background-repeat: no-repeat;
-  color: #fff;
-  padding: 10px 25px;
-  line-height: 1.5;
-  border-radius: 100px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: var(--font-bold);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-[dir="rtl"] .main-btn {
-  padding: 5px 25px;
-}
-
-.main-btn:hover {
-  background: transparent;
-  outline: 2px solid #fff;
-}
-
-.second-btn {
-  background: var(--second-color);
-  color: #fff;
-  padding: 5px 25px;
-  line-height: 2;
-  border-radius: 100px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: var(--font-bold);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.second-btn:hover {
-  background: transparent;
-  color: var(--second-color);
-  outline: 2px solid var(--second-color);
-}
-
-.third-btn {
-  background: var(--main-color);
-  color: #fff;
-  padding: 5px 25px;
-  line-height: 2;
-  border-radius: 100px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: var(--font-bold);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.third-btn:hover {
-  background: transparent;
-  color: var(--main-color);
-  outline: 2px solid var(--main-color);
-}
-
-.typed {
-  font-size: 42px;
-  text-align: center;
-  background: #00000050;
-  padding: 5px 10px;
-}
-
-.typed span {
-  color: var(--main-color);
-  font-family: var(--font-bold);
-  font-size: 42px;
-  text-transform: uppercase;
-  background: linear-gradient(118deg, #fff 0%, #fff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animateText 3s linear infinite;
-  background-size: 200% 100%;
-}
-
 .title {
-  text-align: center;
-  font-size: 48px;
+  text-align: start;
+  font-size: 52px;
   margin-bottom: 15px;
-  text-transform: capitalize;
-  background: linear-gradient(
-    118deg,
-    var(--main-color) 25%,
-    var(--second-color) 75%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animateText 3s linear infinite;
-  background-size: 200% 100%;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: var(--font-bold);
+  line-height: 1.5;
+  color: #000;
 }
 
 .desc {
-  text-align: center;
+  text-align: start;
   font-size: 18px;
-  margin-bottom: 50px;
-  text-transform: capitalize;
   width: 100%;
-  font-weight: 700;
-  margin-bottom: 50px;
-  letter-spacing: 1px;
+  font-family: var(--font-medium);
+  margin-bottom: 25px;
   line-height: 2;
+  color: #000;
 }
 
-.fixed-logo {
-  position: absolute;
-  top: 50px;
-  left: -100px;
-  width: 300px;
-  height: 200px;
-  opacity: 0.1;
-  z-index: 1;
+.dark-text {
+  color: #000;
 }
 
-.fixed-logo.fixed-right {
-  left: auto;
-  right: -100px;
+.white-text {
+  color: #fff;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
+.main-btn {
+  padding: 10px 25px;
   font-size: 16px;
-  color: var(--main-color);
+  text-transform: capitalize;
+  color: #fff;
+  font-family: var(--font-bold);
+  background: var(--main-color);
+  box-shadow: 0 0 3px 0 #ffffff33;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
-.swiper-pagination-bullet-active {
-  background: var(--main-color);
+.main-btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff33;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+
+.main-btn:hover::before {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.main-btn:hover {
+  box-shadow: 0 0 3px 0 #ffffff66;
 }
 
 @media (max-width: 1200px) {
