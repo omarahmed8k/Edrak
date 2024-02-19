@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper';
 import { Collapse } from 'antd';
 import { ReactComponent as Service1 } from "../../assets/images/service1.svg";
 import { ReactComponent as Service2 } from "../../assets/images/service2.svg";
@@ -131,22 +132,18 @@ export default function Home() {
                     </div>
                     <div className='services-swiper'>
                         <Swiper
+                            modules={[Autoplay, Pagination, Navigation]}
                             freeMode={false}
                             slidesPerView="auto"
                             spaceBetween={30}
+                            pagination={{ clickable: true }}
+                            
+                            loop={true}
+                            autoplay={{ delay: 2500, disableOnInteraction: false }}
                             breakpoints={{
-                                0: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 10,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                1024: {
-                                    slidesPerView: 2.5,
-                                    spaceBetween: 30,
-                                },
+                                0: { slidesPerView: 1, spaceBetween: 10, },
+                                768: { slidesPerView: 2, spaceBetween: 20, },
+                                1024: { slidesPerView: 2, spaceBetween: 30, },
                             }}
                         >
                             {swiperItems.map((item, index) => (
