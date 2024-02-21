@@ -39,6 +39,10 @@
   font-size: 12px;
 }
 
+[lang="ar"] .header.small-header li a {
+  direction: ltr;
+}
+
 .header ul {
   display: flex;
   flex-wrap: wrap;

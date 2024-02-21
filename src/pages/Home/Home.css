@@ -54,6 +54,10 @@
 }
 
 .hero-section .hero-content h1 .typed span {
+  color: #fff;
+}
+
+.hero-section .hero-content h1 .typed span:first-of-type {
   color: var(--main-color);
   font-family: var(--font-bold);
   font-size: 42px;
@@ -308,7 +312,7 @@
 }
 
 @media (max-width: 992px) {
-  .hero-section .hero-content h1 .typed span {
+  .hero-section .hero-content h1 .typed span:first-of-type {
     font-size: 36px;
   }
 

@@ -137,7 +137,7 @@ export default function Home() {
                             slidesPerView="auto"
                             spaceBetween={30}
                             pagination={{ clickable: true }}
-                            
+
                             loop={true}
                             autoplay={{ delay: 2500, disableOnInteraction: false }}
                             breakpoints={{
